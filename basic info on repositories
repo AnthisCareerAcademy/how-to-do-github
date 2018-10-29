@@ -5,7 +5,35 @@ software versions are stored. Since git is a software management tool that also
 takes care of version numbers, there are several features that git offers
 which grant you greater control over how you push new versions and fixes.
 
+#BASIC VOCABULARY TERMS
+
+These were found on the help page for GitHub, which is located here.
+https://help.github.com/articles/github-glossary/
+
+GIT - an open-source software version tracker, developed by Linus Torvalds
+to manage Linux kernel development
+CLONE - a downloaded copy of an online repository
+FORK - cloning a repository, and then modifying it
+BRANCHES - forks within your own repository, used to manage and keep track of
+where files are stored within your git directories
+COLLABORATOR - someone who has access to read and edit files within a
+repository
+COMMIT - a change in a file that git keeps track of, saving information
+including who changed it, and when
+ISSUE - suggested improvements, tasks, and questions, that can be contributed
+by anybody, and that are moderated by collaborators
+MERGING - taking changes from a fork or a branch and applying them to another
+
 #HOW TO OPEN A NEW REPO
 
 1) Select the plus icon on the top right of the top panel of the page.
 2) From the dropdown, hit "New repository"
+
+#HOW TO ADD FILES
+
+If you are uploading a file to your repository:
+  1) Select "Upload files in the proper branch you want to upload the file to
+  2) Use the file manager to locate, and then upload it.
+  
+If you want to create a new file within the GitHub browser client:
+  1) Select "Create new file" in the proper branch you want to create a new file in.
