@@ -1,0 +1,11 @@
+What is a repository?
+
+A repository in git is a set of directories, with a master and branches, where
+software versions are stored. Since git is a software management tool that also
+takes care of version numbers, there are several features that git offers
+which grant you greater control over how you push new versions and fixes.
+
+#HOW TO OPEN A NEW REPO
+
+1) Select the plus icon on the top right of the top panel of the page.
+2) From the dropdown, hit "New repository"
