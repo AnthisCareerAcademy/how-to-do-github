@@ -5,7 +5,7 @@ software versions are stored. Since git is a software management tool that also
 takes care of version numbers, there are several features that git offers
 which grant you greater control over how you push new versions and fixes.
 
-#BASIC VOCABULARY TERMS
+# BASIC VOCABULARY TERMS
 
 These were found on the help page for GitHub, which is located here.
 https://help.github.com/articles/github-glossary/
@@ -23,13 +23,14 @@ including who changed it, and when
 ISSUE - suggested improvements, tasks, and questions, that can be contributed
 by anybody, and that are moderated by collaborators
 MERGING - taking changes from a fork or a branch and applying them to another
+RELEASE - a new version of your program/repository
 
-#HOW TO OPEN A NEW REPO
+# HOW TO OPEN A NEW REPO
 
 1) Select the plus icon on the top right of the top panel of the page.
 2) From the dropdown, hit "New repository"
 
-#HOW TO ADD FILES
+# HOW TO ADD FILES
 
 If you are uploading a file to your repository:
   1) Select "Upload files in the proper branch you want to upload the file to
@@ -37,3 +38,26 @@ If you are uploading a file to your repository:
   
 If you want to create a new file within the GitHub browser client:
   1) Select "Create new file" in the proper branch you want to create a new file in.
+
+# HOW TO COMMIT A CHANGE
+
+Just select one of the options:
+  - Commit change to the master branch
+  - Commit change to a new branch that you define
+  - Commit change to an already existing branch
+  
+# HOW TO PUSH A NEW VERSION
+
+1) Select the releases tab on the bar under the name of your repository on its
+main page.
+2) Select "Draft a new release."
+3) Type a version number for it, then select the branch you will want to use
+as a version release. For the most part, the master branch is fine, unless
+you are releasing beta software (under version 1). Instances for beta software
+varies, so there is no right or wrong answer here.
+4) Create a title and description for the release.
+5) Select any binaries that you may want to package with your release, if any,
+and put them into the binaries box.
+6) IF IT IS A BETA, MAKE SURE TO LET YOUR USERS KNOW.
+7) Select "Publish release" if it is ready to go, or "Save draft" to release
+it later.
