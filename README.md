@@ -1,2 +1,2 @@
 # how-to-do-github
-this is where russell attempts how to teach these dudes how to use github and then probably fail. oops.
+The official repo for McKintry's Programming class at Career Academy at Anthis, compiled by Russell Royer, aka iYamWhatIYam. And yes, I will seriously shill myself in educational documents, because my morals do not exist.
