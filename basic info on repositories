@@ -1,9 +1,8 @@
 What is a repository?
 
 A repository in git is a set of directories, with a master and branches, where
-software versions are stored. Since git is a software management tool that also
-takes care of version numbers, there are several features that git offers
-which grant you greater control over how you push new versions and fixes.
+software is stored, and can be easily modified for future development. It also
+saves backups of previous versions you have developed.
 
 # BASIC VOCABULARY TERMS
 
@@ -45,6 +44,14 @@ Just select one of the options:
   - Commit change to the master branch
   - Commit change to a new branch that you define
   - Commit change to an already existing branch
+  
+# OPENING PULL REQUESTS
+
+First of all, "pull" is the wrong word; it should be "merge," as it is in GitLab.
+Essentially, a pull request is when you want feedback from others, or you want to
+make sure you are following convention, so you clone or fork an existing
+repository into your own. This allows you, or others, to test code and make sure
+everything is working properly.
   
 # HOW TO PUSH A NEW VERSION
 
